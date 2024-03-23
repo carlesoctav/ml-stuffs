@@ -1,3 +1,4 @@
+```bash
 usage: train.py [options] fit [-h] [-c CONFIG] [--print_config[=flags]] [--seed_everything SEED_EVERYTHING] [--trainer CONFIG]
                               [--trainer.accelerator.help CLASS_PATH_OR_NAME] [--trainer.accelerator ACCELERATOR]
                               [--trainer.strategy.help CLASS_PATH_OR_NAME] [--trainer.strategy STRATEGY] [--trainer.devices DEVICES]
@@ -326,4 +327,4 @@ Runs the full optimization routine:
                         ``"last"`` and ``"hpc"``. If there is no checkpoint file at the path, an exception is raised. (type:
                         Union[str, Path, null], default: null)
 (     whether to use the AMSGrad variant of this algorithm from the paper `On the Convergence of Adam and Beyond`_
-                   
+```
